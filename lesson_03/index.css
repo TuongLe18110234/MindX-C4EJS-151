@@ -1,0 +1,57 @@
+h2 {
+    color: rgb(32, 5, 29);
+}
+
+/* Tag, Class, id
+    tag: goi ten the
+    class: .ten class
+    id: #ten id
+*/
+
+.heading-2 {
+    font-weight: 700;
+}
+
+.aline-center {
+    text-align: center;
+}
+
+.active {
+    color: blue;
+}
+
+#external {
+    cursor: pointer;
+}
+
+.aline-center.color {
+    color: brown;
+}
+
+p {
+    font-size: 50px;
+}
+
+.text {
+    font-size: 60px;
+}
+
+div > p {
+    font-size: 30px;
+}
+
+p:hover {
+    color: yellowgreen;
+}
+
+body {
+    background-color: blueviolet !important;
+}
+
+
+
+
+
+body {
+    background-color: rgb(104, 163, 124);
+}
