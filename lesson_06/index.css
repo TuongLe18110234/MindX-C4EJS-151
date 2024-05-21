@@ -1,0 +1,89 @@
+.body {
+    width: 100%;
+    background-color: aqua;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+/*
+    max <=
+    min >=
+*/
+
+@media screen {
+    /* body {
+    background-color :rgb(30, 127, 213);
+    } */
+}
+
+@media print {
+    /* p {
+        font-size: 30px;
+    } */
+}
+
+/* Màn hình có chiều rộng không vượt quá 600px 0 - 600px */ 
+@media only screen and (max-width: 600px) {
+    .large {
+        font-size: 40px;
+    }
+}
+
+/* 
+    min 600: >= 600
+    max 800: <= 800 
+    600 <= viewport <= 800
+*/
+@media (min-width: 600px) and (max-width: 800px) {
+    body {
+        background-color: yellowgreen;
+    }
+
+    .large {
+        color: blue;
+    }
+}
+
+/* >=800 */
+@media (min-width: 800px) {
+    body {
+        background-color: red;
+    }
+}
+
+.phone {
+    font-size: 50px;
+}
+
+
+/* >= 576px: Tablet */
+@media (min-width: 576px) and (max-width: 768px) {
+    .phone {
+        font-size: 24px;
+    }
+    .tablet {
+        font-size: 50px;
+    }
+}
+
+/* >= 768px: Laptop*/
+@media (min-width: 768px) {
+    .phone {
+        font-size: 24px;
+    }
+    .laptop {
+        font-size: 50px;
+    }
+}
+
+/* >= 992px: Screen*/
+@media (min-width: 992px) {
+    .phone {
+        font-size: 24px;
+    }
+    .screen {
+        font-size: 50px;
+    }
+}
