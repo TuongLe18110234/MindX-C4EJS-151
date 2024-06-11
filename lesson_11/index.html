@@ -14,9 +14,19 @@
      <div id="content">
         <p>This is my content</p>
         <input id="text" class="text" type="text" placeholder="Enter some thing">
-        <input id="text2" class="text" type="text" placeholder="Enter some thing">
+        <input onchange="addTodoList(event.target.value)" id="text2" class="text" type="text" placeholder="Enter some thing" value="12345">
      </div>
 
+     <button id="btn">Click Me</button>
+
     <script src="index.js"></script>
+
+    <button onclick="sayHello()">Click Me</button>
+
+    <!-- const ul = document.createElement('ul'); document.body.appendChild(ul); -->
+    <ul>
+        <!-- const li = document.createElement('li'); li.innerHTML = filterList[i]; ul.appendChild(li);-->
+        <li>Homework</li>
+    </ul>
 </body>
 </html>
